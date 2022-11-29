@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatTextView xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="18sp" android:textStyle="bold" android:textColor="@color/pinkishGray" android:gravity="center" android:id="@+id/text_view" android:tag="layout/view_holder_number_picker_layout_0" android:layout_width="match_parent" android:layout_height="@dimen/picker_item_size"/>

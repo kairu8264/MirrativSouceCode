@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:tag="layout/fragment_contract_terms_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/toolbar" layout="@layout/toolbar"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.dena.mirrativ.customview.StatusView android:id="@+id/status_view" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="21dp"/>
+        <WebView android:id="@+id/terms_webview" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+        <androidx.appcompat.widget.AppCompatButton android:textSize="14sp" android:textStyle="bold" android:textColor="@color/whiteThree" android:layout_gravity="center" android:id="@+id/start_button" android:background="@drawable/rectangle_corner20_tealish" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="20dp" android:layout_marginBottom="20dp" android:text="@string/text_contract_step_1_terms_agree_terms" android:layout_marginHorizontal="20dp"/>
+    </LinearLayout>
+</LinearLayout>

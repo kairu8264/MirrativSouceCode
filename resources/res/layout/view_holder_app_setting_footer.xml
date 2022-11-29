@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:tag="layout/view_holder_app_setting_footer_0" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="12sp" android:textStyle="bold" android:textColor="@color/warmGray" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/text_appsetting_broadcast_appselected_caution_ios" android:lineSpacingMultiplier="1.2"/>
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="10sp" android:textColor="@color/warmGray" android:gravity="center" android:id="@+id/add_app_id_text_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:lineSpacingMultiplier="1.2"/>
+</LinearLayout>

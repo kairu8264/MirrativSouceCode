@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" android:tag="layout/dialog_fragment_gift_particle_view_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.dena.mirrorman.feature.player.gifting.GiftParticleView android:id="@+id/gift_particle_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

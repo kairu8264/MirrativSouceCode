@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:tag="layout/fragment_search_live_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:orientation="vertical" android:id="@+id/livelist_container" android:background="@color/livelist_bg" android:paddingTop="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="end" android:id="@+id/livelist_search_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_search_detail"/>
+            <androidx.appcompat.widget.AppCompatImageView android:background="@mipmap/ic_app_detail_search" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginTop="2dp" android:layout_marginStart="6dp" android:layout_marginEnd="8dp"/>
+        </LinearLayout>
+        <FrameLayout android:id="@+id/fragment_container" android:background="@color/livelist_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="8dp" android:layout_below="@+id/livelist_search_container"/>
+    </RelativeLayout>
+    <ListView android:id="@+id/keywordlist" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@color/transparent" android:divider="@null"/>
+    <ProgressBar android:id="@+id/search_progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:indeterminateDrawable="@drawable/circular_progress" android:layout_centerInParent="true" style="?android:attr/progressBarStyle"/>
+</RelativeLayout>

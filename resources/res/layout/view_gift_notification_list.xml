@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:tag="layout/view_gift_notification_list_0" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.dena.mirrativ.player.gifting.GiftNotificationView android:layout_gravity="right" android:id="@+id/item_first" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <com.dena.mirrativ.player.gifting.GiftNotificationView android:layout_gravity="right" android:id="@+id/item_second" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <com.dena.mirrativ.player.gifting.GiftNotificationView android:layout_gravity="right" android:id="@+id/item_third" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>

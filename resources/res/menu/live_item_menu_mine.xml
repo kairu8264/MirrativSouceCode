@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@mipmap/ic_total_viewer_gray" android:id="@+id/menu_item_archive_hidden" android:title="@string/text_show_archive"/>
+    <item android:id="@+id/menu_item_share" android:title="@string/text_share_archive"/>
+    <item android:id="@+id/menu_item_download" android:title="@string/text_download"/>
+    <item android:icon="@mipmap/ic_strm_like" android:id="@+id/menu_item_delete" android:title="@string/text_delete"/>
+</menu>

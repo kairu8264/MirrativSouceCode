@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:tag="layout/activity_group_invitations_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/toolbar" layout="@layout/toolbar"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/search" android:background="@drawable/rectangle_stroke_whitetwo_corner4_transparent" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="32dp" android:layout_marginLeft="16dp" android:layout_marginTop="10dp" android:layout_marginRight="16dp" android:layout_marginBottom="6dp" android:layout_below="@+id/toolbar">
+        <RelativeLayout android:layout_width="32dp" android:layout_height="32dp" android:layout_marginLeft="4dp" android:layout_marginRight="4dp">
+            <ImageButton android:background="@mipmap/btn_search_gray" android:layout_width="16dp" android:layout_height="16dp" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <EditText android:layout_gravity="center_vertical" android:id="@+id/search_field" android:background="@null" android:layout_width="0dp" android:layout_height="wrap_content" android:hint="@string/text_search_users" android:layout_weight="1" android:inputType="text" android:imeOptions="flagNoFullscreen|actionSearch" style="@style/EditTextSlategraySmall"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/footer" android:background="@color/whiteThree" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/invited_users" android:paddingLeft="10dp" android:paddingTop="4dp" android:paddingRight="10dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@null"/>
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/whiteThree" android:gravity="center" android:layout_gravity="center" android:id="@+id/submit" android:clickable="true" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginLeft="16dp" android:layout_marginTop="8dp" android:layout_marginRight="16dp" android:layout_marginBottom="8dp" android:text="@string/text_chat_btn_member_add" style="@style/Button.RectangleCorner20_Tealish.Normal"/>
+    </LinearLayout>
+    <ListView android:id="@+id/candidates" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@null" android:layout_above="@+id/footer" android:layout_below="@+id/search"/>
+    <androidx.appcompat.widget.AppCompatTextView android:gravity="center" android:layout_gravity="center" android:id="@+id/empty" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="110dp" android:text="@string/text_chat_makeroom_none" android:drawableTop="@mipmap/img_makeroom_default" android:drawablePadding="12dp" android:layout_below="@+id/search" android:layout_centerInParent="true"/>
+    <View android:background="@drawable/drop_shadow" android:layout_width="match_parent" android:layout_height="4dp" android:layout_below="@+id/toolbar"/>
+    <View android:background="@drawable/reverse_drop_shadow" android:layout_width="match_parent" android:layout_height="4dp" android:layout_above="@+id/footer"/>
+</RelativeLayout>

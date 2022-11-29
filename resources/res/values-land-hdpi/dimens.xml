@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="float_control_app_list_width">336dp</dimen>
+    <dimen name="float_viewerlist_height">150dp</dimen>
+</resources>

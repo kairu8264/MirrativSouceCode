@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="4dp">
+    <View android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <RelativeLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginRight="4dp" android:layout_weight="3">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true">
+            <ImageView android:id="@+id/fixedimage_body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4dp" android:scaleType="fitXY"/>
+            <androidx.appcompat.widget.AppCompatTextView android:ellipsize="end" android:gravity="start|bottom" android:id="@+id/read_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2dp" android:maxLines="1" style="@style/TextWarmGray.Micro"/>
+            <androidx.appcompat.widget.AppCompatTextView android:ellipsize="end" android:gravity="start|bottom" android:id="@+id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/TextWarmGray.Micro"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

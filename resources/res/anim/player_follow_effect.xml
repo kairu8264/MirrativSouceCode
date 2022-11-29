@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:shareInterpolator="false" android:fillAfter="false">
+    <scale android:duration="200" android:pivotX="50%" android:pivotY="50%" android:fromXScale="1" android:toXScale="1.18" android:fromYScale="1" android:toYScale="1.18"/>
+    <scale android:duration="200" android:pivotX="50%" android:pivotY="50%" android:startOffset="200" android:fromXScale="1" android:toXScale="0.85" android:fromYScale="1" android:toYScale="0.85"/>
+    <scale android:duration="200" android:pivotX="50%" android:pivotY="50%" android:startOffset="400" android:fromXScale="1" android:toXScale="1.12" android:fromYScale="1" android:toYScale="1.12"/>
+    <scale android:duration="200" android:pivotX="50%" android:pivotY="50%" android:startOffset="600" android:fromXScale="1" android:toXScale="0.89" android:fromYScale="1" android:toYScale="0.89"/>
+</set>

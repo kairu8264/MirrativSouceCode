@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/view_holder_gift_gacha_stock_mutual_gift_0" android:layout_width="54dp" android:layout_height="50dp">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@+id/gift_image_view" android:layout_width="50dp" android:layout_height="50dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <View android:id="@+id/profile_background_view" android:background="@drawable/oval_whitethree" android:layout_width="26dp" android:layout_height="26dp" android:layout_marginBottom="1dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0"/>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@+id/profile_image_view" android:layout_width="24dp" android:layout_height="24dp" app:layout_constraintBottom_toBottomOf="@+id/profile_background_view" app:layout_constraintEnd_toEndOf="@+id/profile_background_view" app:layout_constraintStart_toStartOf="@+id/profile_background_view" app:layout_constraintTop_toTopOf="@+id/profile_background_view"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

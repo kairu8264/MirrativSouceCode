@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/view_holder_notice_your_0" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:id="@+id/image_container" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@+id/icon_image_view" android:layout_width="48dp" android:layout_height="48dp"/>
+        <androidx.appcompat.widget.AppCompatImageView android:id="@+id/image_view" android:layout_width="125dp" android:layout_height="71dp"/>
+    </FrameLayout>
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="12sp" android:textColor="@color/slateGray" android:id="@+id/message_text_view" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginStart="10dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toEndOf="@+id/image_container" app:layout_constraintTop_toTopOf="0"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/follower_recycler_view" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="8dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="@+id/message_text_view" app:layout_constraintTop_toBottomOf="@+id/message_text_view"/>
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="10sp" android:textColor="@color/sankGray" android:id="@+id/date_text_view" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="8dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="@+id/message_text_view" app:layout_constraintTop_toBottomOf="@+id/follower_recycler_view"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

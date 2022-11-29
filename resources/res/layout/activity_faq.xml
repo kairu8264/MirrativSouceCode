@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/activity_faq_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/toolbar" app:layout_constraintTop_toTopOf="0" layout="@layout/toolbar"/>
+    <WebView android:id="@+id/web_view" android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintBottom_toTopOf="@+id/contact_container" app:layout_constraintTop_toBottomOf="@+id/toolbar"/>
+    <com.dena.mirrativ.customview.StatusView android:id="@+id/status_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/contact_container" android:background="#f8f8f8" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="12sp" android:textColor="@color/text_brownGrey" android:id="@+id/contact_by_mail_text_view" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_inquiry" android:paddingEnd="16dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View android:background="@drawable/drop_shadow" android:layout_width="match_parent" android:layout_height="4dp" app:layout_constraintTop_toBottomOf="@+id/toolbar"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

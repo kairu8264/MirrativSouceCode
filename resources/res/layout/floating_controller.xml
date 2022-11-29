@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:tag="layout/floating_controller_0" android:background="@drawable/rectangle_corner4_blackthree80" android:focusable="true" android:clickable="true" android:layout_width="@dimen/float_control_width_portrait" android:layout_height="@dimen/float_control_height_portrait">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@+id/close_control" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/CloseButton.WhiteThree30"/>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@+id/back_to_normal" android:background="@drawable/ripple_whitethree30_nomask" android:visibility="invisible" android:layout_width="40dp" android:layout_height="40dp" android:src="@mipmap/btn_back" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+    <ScrollView android:id="@+id/edit_content" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/float_control_margin_side" android:layout_marginTop="40dp" android:layout_marginRight="@dimen/float_control_margin_side" android:layout_marginBottom="16dp" android:fillViewport="true" android:layout_alignBottom="@+id/normal_content" android:layout_alignParentTop="true">
+        <com.dena.mirrativ.streaming.floating.control.FloatingControlEditView android:id="@+id/edit_view" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </ScrollView>
+    <RelativeLayout android:id="@+id/normal_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/float_control_margin_side" android:layout_marginRight="@dimen/float_control_margin_side">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/live_title_layout" android:background="@drawable/edit_text_bottom_line" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="40dp" android:layout_marginRight="8dp" android:layout_alignParentTop="true">
+            <androidx.appcompat.widget.AppCompatTextView android:ellipsize="end" android:gravity="center" android:id="@+id/live_title" android:background="@drawable/ripple_whitethree_mask_rectangle_corner4" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="0dp" android:layout_height="wrap_content" android:minHeight="40dp" android:maxLines="1" android:layout_weight="1" style="@style/TextWhiteThree.Large"/>
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:id="@+id/app_icon" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="4dp" android:layout_marginRight="8dp" android:scaleType="fitCenter"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/float_setting_container" android:layout_width="match_parent" android:layout_height="@dimen/float_setting_grid_height" android:layout_marginTop="16dp" android:layout_below="@+id/live_title_layout">
+            <com.dena.mirrativ.streaming.floating.setting.FloatingSettingRecyclerView android:id="@+id/float_setting" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/button_group" android:tag="binding_1" android:layout_width="252dp" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_below="@+id/float_setting_container" android:layout_centerHorizontal="true">
+            <include layout="@layout/btn_share_stream"/>
+            <View android:layout_width="8dp" android:layout_height="1dp"/>
+            <include layout="@layout/btn_block"/>
+            <View android:layout_width="6dp" android:layout_height="1dp"/>
+            <ImageButton android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/btn_help" android:background="@drawable/btn_setting_question" style="@style/BroadcastFloatSettingsItemImage"/>
+        </LinearLayout>
+        <RelativeLayout android:id="@+id/playstop" android:background="@drawable/btn_rectangle_corner20_whitethree" android:clickable="true" android:layout_width="252dp" android:layout_height="40dp" android:layout_marginTop="12dp" android:layout_below="@+id/button_group" android:layout_centerHorizontal="true">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/playstop_image" android:layout_width="12dp" android:layout_height="12dp" android:layout_marginLeft="16dp" android:src="@mipmap/ic_strm_rec" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="14sp" android:textColor="@color/text_grapefruit" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_stop_broadcast" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/live_stats" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:layout_below="@+id/playstop" android:layout_centerHorizontal="true">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="12sp" android:textColor="@color/text_whiteThree" android:id="@+id/streaming_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_casting_time"/>
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="12sp" android:textColor="@color/text_whiteThree" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:text="|"/>
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="12sp" android:textColor="@color/text_whiteThree" android:id="@+id/total_viewers" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_total_viewers"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

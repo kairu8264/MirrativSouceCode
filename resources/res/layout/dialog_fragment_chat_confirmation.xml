@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/root" android:tag="layout/dialog_fragment_chat_confirmation_0" android:background="@color/blackThree50" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:background="@drawable/rectangle_corner12_whitethree" android:layout_width="260dp" android:layout_height="130dp" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <androidx.appcompat.widget.AppCompatTextView android:gravity="center_horizontal" android:id="@+id/title" android:layout_width="236dp" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/TextSlateGray.Normal"/>
+        <LinearLayout android:id="@+id/actions" android:paddingLeft="8dp" android:paddingTop="4dp" android:paddingRight="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <androidx.appcompat.widget.AppCompatTextView android:gravity="center" android:id="@+id/cancel" android:background="@drawable/rectangle_corner20_whitethree_withframe" android:layout_width="0dp" android:layout_height="40dp" android:layout_margin="4dp" android:text="@string/text_cancel" android:layout_weight="1" style="@style/TextWarmGray.Small"/>
+            <androidx.appcompat.widget.AppCompatTextView android:gravity="center" android:id="@+id/ok" android:background="@drawable/rectangle_corner20_grapefruit" android:layout_width="0dp" android:layout_height="40dp" android:layout_margin="4dp" android:text="@string/text_ok" android:layout_weight="1" style="@style/TextWhiteThree.Small"/>
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="11sp" android:gravity="center" android:id="@+id/message" android:layout_width="236dp" android:layout_height="wrap_content" android:layout_above="@+id/actions" android:layout_below="@+id/title" android:layout_centerHorizontal="true" android:lineSpacingExtra="3dp" style="@style/TextWarmGray"/>
+    </RelativeLayout>
+</RelativeLayout>

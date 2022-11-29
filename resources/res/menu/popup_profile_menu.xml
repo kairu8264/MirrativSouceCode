@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item_kick" android:title="@string/text_kickout"/>
+    <item android:id="@+id/item_block" android:title="@string/text_block"/>
+    <item android:id="@+id/item_unblock" android:title="@string/text_unblock"/>
+    <item android:id="@+id/item_report" android:title="@string/text_report"/>
+</menu>

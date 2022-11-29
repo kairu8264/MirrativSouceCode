@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_chat" android:id="@+id/chat_menu_item" android:title="@string/text_chat" app:showAsAction="always"/>
+    <item android:id="@+id/block_menu_item" android:title="@string/text_block" app:showAsAction="never"/>
+    <item android:id="@+id/report_menu_item" android:title="@string/text_report" app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="center_horizontal" android:tag="layout/view_report_dialog_0" android:layout_width="300dp" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/rectangle_corner4_whitethree" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/text_confirmation_report_user" style="@style/TextSlateGray.Large"/>
+        <RadioGroup android:id="@+id/category_radio_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp">
+            <androidx.appcompat.widget.AppCompatTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_bad_report_default_label" style="@style/TextSlateGray.Normal"/>
+        </RadioGroup>
+        <EditText android:id="@+id/edit_report" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:hint="@string/text_input_report" android:maxLines="1" android:lines="1" android:singleLine="true" android:imeOptions="actionSend" style="@style/EditTextSlategrayNormal"/>
+        <LinearLayout android:paddingLeft="8dp" android:paddingTop="4dp" android:paddingRight="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatButton android:gravity="center" android:id="@+id/cancel_button" android:background="@drawable/btn_stroke_corner4_pinkishgray" android:layout_width="0dp" android:layout_height="40dp" android:layout_margin="4dp" android:text="@string/text_cancel" android:layout_weight="1" style="@style/TextWarmGray.Small"/>
+            <androidx.appcompat.widget.AppCompatButton android:enabled="false" android:id="@+id/report_button" android:background="@drawable/rectangle_stroke_whitetwo_corner4_tealish_stateful" android:layout_width="0dp" android:layout_height="40dp" android:layout_margin="4dp" android:text="@string/text_report" android:layout_weight="1" style="@style/TextWhiteThree.Small"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

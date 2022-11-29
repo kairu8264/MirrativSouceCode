@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="left" android:id="@+id/root" android:tag="layout/activity_settingroot_0" android:background="@color/whiteThree" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/toolbar" layout="@layout/toolbar"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/toolbar" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:id="@+id/edit_identification_container" android:visibility="gone" style="@style/DrawerItemContainer">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/ic_icon_identification" style="@style/DrawerItemImage"/>
+                <androidx.appcompat.widget.AppCompatTextView android:id="@+id/edit_identification_text_view" android:layout_width="wrap_content" android:text="@string/text_contract_register_identification_title" style="@style/DrawerItemName"/>
+                <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@+id/edit_identification_new_badge_image_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_resource_new" android:layout_marginStart="7dp"/>
+                <Space android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+                <androidx.appcompat.widget.AppCompatImageView android:id="@+id/edit_identification_right_icon_image_view" android:layout_width="18dp" android:layout_height="18dp" android:layout_marginEnd="16dp" style="@style/DrawerItemImage"/>
+            </LinearLayout>
+            <View android:id="@+id/edit_identification_divider_view" android:background="@color/very_light_pink" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <LinearLayout android:id="@+id/edit_bank_account_container" android:visibility="gone" style="@style/DrawerItemContainer">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/ic_select_payment_type" style="@style/DrawerItemImage"/>
+                <androidx.appcompat.widget.AppCompatTextView android:id="@+id/edit_bank_account_text_view" android:layout_width="wrap_content" android:text="@string/text_select_payment_type_page_title" style="@style/DrawerItemName"/>
+                <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@+id/edit_bank_account_new_badge_image_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_resource_new" android:layout_marginStart="7dp"/>
+                <Space android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+                <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/sankGray" android:layout_gravity="center" android:id="@+id/payment_type_text_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Body2"/>
+                <androidx.appcompat.widget.AppCompatImageView android:id="@+id/edit_bank_account_right_icon_image_view" android:layout_width="18dp" android:layout_height="18dp" android:layout_marginEnd="16dp" style="@style/DrawerItemImage"/>
+            </LinearLayout>
+            <View android:id="@+id/edit_bank_account_divider_view" android:background="@color/very_light_pink" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <LinearLayout android:id="@+id/contract_member_pass_book_container" android:visibility="gone" style="@style/DrawerItemContainer">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/ic_icon_bonus" style="@style/DrawerItemImage"/>
+                <androidx.appcompat.widget.AppCompatTextView android:layout_width="wrap_content" android:text="@string/text_menu_cash_bonus_history_title" style="@style/DrawerItemName"/>
+                <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@+id/contract_passbook_new_badge_image_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_resource_new" android:layout_marginStart="7dp"/>
+                <Space android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+                <androidx.appcompat.widget.AppCompatImageView android:id="@+id/cash_bonus_history_right_icon_image_view" android:layout_width="18dp" android:layout_height="18dp" android:layout_marginEnd="16dp" style="@style/DrawerItemImage"/>
+            </LinearLayout>
+            <View android:id="@+id/contract_member_pass_book_divider_view" android:background="@color/very_light_pink" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <LinearLayout android:id="@+id/monthly_ranking" android:visibility="gone" style="@style/DrawerItemContainer">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/ic_crown" style="@style/DrawerItemImage"/>
+                <androidx.appcompat.widget.AppCompatTextView android:layout_width="wrap_content" android:text="@string/text_monthly_ranking_title" style="@style/DrawerItemName"/>
+                <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@+id/monthly_ranking_new_badge" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_resource_new" android:layout_marginStart="7dp"/>
+                <Space android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/ic_path" android:layout_marginEnd="16dp" style="@style/DrawerItemImage"/>
+            </LinearLayout>
+            <View android:id="@+id/monthly_ranking_divider" android:background="@color/very_light_pink" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <View android:id="@+id/contract_member_menu_divider" android:background="@color/bgWhiteGrey" android:visibility="gone" android:layout_width="match_parent" android:layout_height="40dp"/>
+            <View android:background="@color/very_light_pink" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <LinearLayout android:id="@+id/setting_root_setting" style="@style/DrawerItemContainer">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/ic_various_settings" style="@style/DrawerItemImage"/>
+                <androidx.appcompat.widget.AppCompatTextView android:layout_width="0dp" android:text="@string/text_various_settings" android:layout_weight="1" style="@style/DrawerItemName"/>
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/ic_path" android:layout_marginEnd="16dp" style="@style/DrawerItemImage"/>
+            </LinearLayout>
+            <View android:background="@color/very_light_pink" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <View android:background="@color/bgWhiteGrey" android:layout_width="match_parent" android:layout_height="40dp"/>
+            <View android:background="@color/very_light_pink" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <LinearLayout android:id="@+id/contactus" style="@style/DrawerItemContainer.Small">
+                <androidx.appcompat.widget.AppCompatTextView android:layout_width="0dp" android:text="@string/text_support" android:layout_weight="1" style="@style/DrawerItemName"/>
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/ic_path" android:layout_marginEnd="16dp" style="@style/DrawerItemImage"/>
+            </LinearLayout>
+            <View android:background="@color/very_light_pink" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginStart="15dp"/>
+            <LinearLayout android:id="@+id/dear_developer" android:visibility="gone" style="@style/DrawerItemContainer.Small">
+                <androidx.appcompat.widget.AppCompatTextView android:layout_width="0dp" android:text="@string/text_dear_developer" android:layout_weight="1" style="@style/DrawerItemName"/>
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/ic_path" android:layout_marginEnd="16dp" style="@style/DrawerItemImage"/>
+            </LinearLayout>
+            <View android:background="@color/very_light_pink" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginStart="15dp"/>
+            <LinearLayout android:id="@+id/dear_publisher" android:visibility="gone" style="@style/DrawerItemContainer.Small">
+                <androidx.appcompat.widget.AppCompatTextView android:layout_width="0dp" android:text="@string/text_support_for_publisher" android:layout_weight="1" style="@style/DrawerItemName"/>
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/ic_path" android:layout_marginEnd="16dp" style="@style/DrawerItemImage"/>
+            </LinearLayout>
+            <View android:background="@color/very_light_pink" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginStart="15dp"/>
+            <LinearLayout android:id="@+id/policy" style="@style/DrawerItemContainer.Small">
+                <androidx.appcompat.widget.AppCompatTextView android:layout_width="0dp" android:text="@string/text_user_policy_and_privacy_policy" android:layout_weight="1" style="@style/DrawerItemName"/>
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/ic_path" android:layout_marginEnd="16dp" style="@style/DrawerItemImage"/>
+            </LinearLayout>
+            <View android:background="@color/very_light_pink" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginStart="15dp"/>
+            <LinearLayout android:id="@+id/terms_for_streamer" style="@style/DrawerItemContainer.Small">
+                <androidx.appcompat.widget.AppCompatTextView android:layout_width="0dp" android:text="@string/text_streamer_terms_of_use" android:layout_weight="1" style="@style/DrawerItemName"/>
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/ic_path" android:layout_marginEnd="16dp" style="@style/DrawerItemImage"/>
+            </LinearLayout>
+            <View android:background="@color/very_light_pink" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginStart="15dp"/>
+            <LinearLayout android:id="@+id/law" style="@style/DrawerItemContainer.Small">
+                <androidx.appcompat.widget.AppCompatTextView android:layout_width="0dp" android:text="@string/text_tokutei" android:layout_weight="1" style="@style/DrawerItemName"/>
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/ic_path" android:layout_marginEnd="16dp" style="@style/DrawerItemImage"/>
+            </LinearLayout>
+            <View android:background="@color/very_light_pink" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginStart="15dp"/>
+            <LinearLayout android:id="@+id/license" style="@style/DrawerItemContainer.Small">
+                <androidx.appcompat.widget.AppCompatTextView android:layout_width="0dp" android:text="@string/text_license" android:layout_weight="1" style="@style/DrawerItemName"/>
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/ic_path" android:layout_marginEnd="16dp" style="@style/DrawerItemImage"/>
+            </LinearLayout>
+            <View android:background="@color/very_light_pink" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginStart="15dp"/>
+            <LinearLayout android:id="@+id/guideline" style="@style/DrawerItemContainer.Small">
+                <androidx.appcompat.widget.AppCompatTextView android:layout_width="0dp" android:text="@string/text_streaming_guideline" android:layout_weight="1" style="@style/DrawerItemName"/>
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/ic_path" android:layout_marginEnd="16dp" style="@style/DrawerItemImage"/>
+            </LinearLayout>
+            <View android:background="@color/very_light_pink" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginStart="15dp"/>
+            <LinearLayout android:id="@+id/about" style="@style/DrawerItemContainer.Small">
+                <androidx.appcompat.widget.AppCompatTextView android:layout_width="0dp" android:text="@string/text_about_mirrativ" android:layout_weight="1" style="@style/DrawerItemName"/>
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/ic_path" android:layout_marginEnd="16dp" style="@style/DrawerItemImage"/>
+            </LinearLayout>
+            <View android:background="@color/very_light_pink" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <View android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+        </LinearLayout>
+    </ScrollView>
+    <View android:background="@drawable/drop_shadow" android:layout_width="match_parent" android:layout_height="4dp" android:layout_below="@+id/toolbar"/>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="@color/whiteThree">
+    <item>
+        <selector>
+            <item android:state_enabled="true" android:drawable="@drawable/rectangle_corner24_tealish"/>
+            <item android:state_enabled="false" android:drawable="@drawable/rectangle_corner24_blackthree30"/>
+        </selector>
+    </item>
+</ripple>

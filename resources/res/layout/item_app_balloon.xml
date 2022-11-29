@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/app_balloon" android:tag="layout/item_app_balloon_0" android:background="@mipmap/btn_app_rec_start" android:layout_width="@dimen/archive_player_app_balloon_width" android:layout_height="@dimen/archive_player_app_balloon_height">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@+id/app_balloon_image" android:layout_width="@dimen/archive_player_app_balloon_img_mask_size" android:layout_height="@dimen/archive_player_app_balloon_img_mask_size" android:layout_marginTop="@dimen/archive_player_app_balloon_img_ofs" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

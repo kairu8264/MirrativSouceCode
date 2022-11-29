@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/root" android:tag="layout/activity_profile_user_list_0" android:background="@color/whiteThree" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/toolbar" layout="@layout/toolbar"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/toolbar" android:layout_alignParentBottom="true">
+        <RelativeLayout android:id="@+id/headerView" android:background="@color/whiteThree" android:visibility="gone" android:layout_width="match_parent" android:layout_height="65dp">
+            <LinearLayout android:orientation="vertical" android:id="@+id/headerTextView" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="14dp" android:layout_toLeftOf="@+id/headerButton" android:layout_marginStart="12dp" android:layout_toStartOf="@+id/headerButton">
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="12sp" android:textStyle="bold" android:id="@+id/headerTitleView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_moderator_setting"/>
+                <androidx.appcompat.widget.AppCompatTextView android:id="@+id/headerDescriptionView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_limit_people" style="@style/TextWarmGray.Small"/>
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="11sp" android:id="@+id/headerWarnView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_kick_impossible_ios" style="@style/TextWarmGray.Small"/>
+            </LinearLayout>
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="12sp" android:gravity="center" android:id="@+id/headerButton" android:background="@drawable/rectangle_stroke_whitetwo_corner4_transparent" android:layout_width="150dp" android:layout_height="32dp" android:layout_marginRight="12dp" android:text="@string/text_btn_moderator_setting" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="12dp" android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+        <FrameLayout android:tag="binding_1" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ListView android:id="@+id/listview" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@null"/>
+            <include android:id="@+id/listview_empty_view" layout="@layout/listview_empty_view"/>
+        </FrameLayout>
+    </LinearLayout>
+    <View android:background="@drawable/drop_shadow" android:layout_width="match_parent" android:layout_height="4dp" android:layout_below="@+id/toolbar"/>
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/floating_collab_connected_message_0" android:background="@color/grapefruit" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.dena.mirrorman.widget.TopToastMessageView android:id="@+id/toast_view" android:layout_width="match_parent" android:layout_height="wrap_content" app:topToastMessage="@string/text_collab_description_1" app:topToastTitle="@string/text_collab_started"/>
+</RelativeLayout>

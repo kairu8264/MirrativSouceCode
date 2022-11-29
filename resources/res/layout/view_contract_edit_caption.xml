@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:tag="layout/view_contract_edit_caption_0" android:background="@color/bgWhiteGrey" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="21dp">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_rectangle_5375" android:layout_marginStart="20dp"/>
+        <androidx.appcompat.widget.AppCompatTextView android:textAppearance="@style/Title3.Bold" android:textColor="@color/slateGray" android:id="@+id/title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_contract_register_identification_title" android:layout_marginStart="10dp"/>
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatTextView android:textAppearance="@style/Body2" android:textColor="@color/grapefruit" android:id="@+id/caption_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginBottom="17dp" android:text="@string/text_contract_register_identification_caption" android:layout_marginHorizontal="20dp"/>
+</LinearLayout>

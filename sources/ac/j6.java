@@ -1,0 +1,18 @@
+package ac;
+
+import android.view.View;
+import androidx.appcompat.widget.AppCompatImageView;
+import androidx.databinding.ViewDataBinding;
+
+/* loaded from: classes2.dex */
+public abstract class j6 extends ViewDataBinding {
+    public final AppCompatImageView B;
+    public ud.d1 C;
+
+    public j6(Object obj, View view, int i10, AppCompatImageView appCompatImageView) {
+        super(obj, view, i10);
+        this.B = appCompatImageView;
+    }
+
+    public abstract void T(ud.d1 d1Var);
+}

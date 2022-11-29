@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/main_container" android:tag="layout/activity_live_game_web_view_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <WebView android:id="@+id/web_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.dena.mirrativ.customview.StatusView android:id="@+id/status_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@+id/close_button_image_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:src="@drawable/ic_live_game_close" android:layout_marginEnd="12dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

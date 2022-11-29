@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:tag="layout/activity_group_edit_0" android:background="@color/whiteTwo" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/toolbar" layout="@layout/toolbar"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/form" android:background="@color/whiteThree" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/toolbar">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/imageField" android:paddingLeft="16dp" android:paddingTop="12dp" android:paddingRight="16dp" android:paddingBottom="12dp" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.dena.mirrorman.widget.RoundedMultipleImagesView android:layout_gravity="center_vertical" android:id="@+id/image" android:layout_width="48dp" android:layout_height="48dp"/>
+            <androidx.appcompat.widget.AppCompatTextView android:textStyle="bold" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_chat_group_image_edit" android:layout_marginStart="13dp" style="@style/TextSlateGray.Small"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:paddingLeft="16sp" android:paddingRight="16sp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatTextView android:layout_gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/text_chat_group_name" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" style="@style/TextSlateGray.Small"/>
+                <androidx.appcompat.widget.AppCompatTextView android:layout_gravity="center_vertical" android:id="@+id/name_counter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" style="@style/TextPinkishGray.Small"/>
+            </RelativeLayout>
+            <EditText android:layout_gravity="center_vertical" android:id="@+id/name" android:background="@drawable/rectangle_stroke_whitetwo_corner4_transparent" android:paddingLeft="12dp" android:paddingRight="12dp" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginTop="12dp" android:layout_marginBottom="12dp" android:maxLength="@string/limit_group_name" android:inputType="text" style="@style/EditTextSlategraySmall"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/form">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="11sp" android:gravity="center_vertical" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginBottom="1dp" android:text="@string/text_chat_member_manage" style="@style/TextWarmGray"/>
+        <androidx.appcompat.widget.AppCompatTextView android:gravity="center_vertical" android:id="@+id/users" android:background="@drawable/ripple_tealish30_rectangle_whitethree" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginBottom="1dp" android:text="@string/text_chat_member_list" style="@style/TextSlateGray.Small"/>
+        <androidx.appcompat.widget.AppCompatTextView android:gravity="center_vertical" android:id="@+id/inviteUsers" android:background="@drawable/ripple_tealish30_rectangle_whitethree" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="40dp" android:text="@string/text_chat_member_add" style="@style/TextSlateGray.Small"/>
+    </LinearLayout>
+    <View android:background="@drawable/drop_shadow" android:layout_width="match_parent" android:layout_height="4dp" android:layout_below="@+id/toolbar"/>
+</RelativeLayout>

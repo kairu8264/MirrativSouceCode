@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/help_container" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/control_anchor_view" android:layout_width="@dimen/float_control_width" android:layout_height="@dimen/float_control_height" android:layout_centerInParent="true"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/container" android:background="@drawable/rectangle_corner4_whitethree_shadow" android:paddingLeft="12dp" android:paddingTop="5dp" android:paddingRight="12dp" android:paddingBottom="13dp" android:layout_width="236dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/float_control_help_marginTop" android:layout_alignTop="@+id/control_anchor_view" android:layout_marginStart="@dimen/float_control_help_marginStart" android:layout_alignStart="@+id/control_anchor_view">
+        <LinearLayout android:orientation="vertical" android:id="@+id/help_privacy_text" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_privacy_setting" android:singleLine="true" style="@style/TextSlateGray.Small"/>
+            <androidx.appcompat.widget.AppCompatTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_privacy_setting_description" style="@style/TextSlateGray.Micro"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/help_collab_text" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_collab_setting" android:singleLine="true" style="@style/TextSlateGray.Small"/>
+            <androidx.appcompat.widget.AppCompatTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_collab_description" style="@style/TextSlateGray.Micro"/>
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatTextView android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_block" style="@style/TextSlateGray.Small"/>
+        <androidx.appcompat.widget.AppCompatTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_block_description" style="@style/TextSlateGray.Micro"/>
+    </LinearLayout>
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-7dp" android:layout_below="@+id/container" android:layout_marginEnd="@dimen/float_control_help_arrow_marginEnd" android:layout_alignEnd="@+id/container">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@+id/help_arrow" android:layout_width="16dp" android:layout_height="8dp" android:src="@mipmap/tutorial_arrow_bottom_white" android:scaleType="fitXY"/>
+    </FrameLayout>
+</RelativeLayout>

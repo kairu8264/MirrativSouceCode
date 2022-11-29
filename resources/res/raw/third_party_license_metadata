@@ -1,0 +1,342 @@
+0:46 androidx.core:core
+47:47 org.jetbrains.kotlinx:atomicfu-common
+95:46 androidx.lifecycle:lifecycle-service
+142:46 androidx.lifecycle:lifecycle-runtime-ktx
+189:46 androidx.databinding:viewbinding
+236:46 androidx.databinding:databinding-runtime
+283:46 org.jetbrains.kotlin:kotlin-stdlib-jdk7
+330:46 androidx.customview:customview
+377:46 androidx.lifecycle:lifecycle-livedata-core
+424:46 androidx.loader:loader
+471:46 androidx.activity:activity
+518:46 androidx.lifecycle:lifecycle-extensions
+565:46 org.jetbrains.kotlin:kotlin-stdlib
+612:46 androidx.lifecycle:lifecycle-viewmodel
+659:46 org.jetbrains.kotlin:kotlin-stdlib-jdk8
+706:47 org.jetbrains.kotlinx:kotlinx-coroutines-core-metadata
+754:46 androidx.arch.core:core-common
+801:46 androidx.collection:collection
+848:46 androidx.lifecycle:lifecycle-viewmodel-savedstate
+895:46 androidx.lifecycle:lifecycle-common
+942:46 androidx.lifecycle:lifecycle-livedata
+989:46 androidx.savedstate:savedstate
+1036:46 androidx.lifecycle:lifecycle-runtime
+1083:46 androidx.databinding:databinding-ktx
+1130:46 org.jetbrains.kotlin:kotlin-stdlib-common
+1177:46 androidx.lifecycle:lifecycle-process
+1224:46 androidx.fragment:fragment
+1271:46 org.jetbrains:annotations
+1318:46 androidx.databinding:databinding-adapters
+1365:46 androidx.viewpager:viewpager
+1412:47 org.jetbrains.kotlinx:kotlinx-coroutines-android
+1460:46 androidx.annotation:annotation
+1507:46 androidx.versionedparcelable:versionedparcelable
+1554:46 androidx.arch.core:core-runtime
+1601:46 androidx.databinding:databinding-common
+1648:46 io.insert-koin:koin-android
+1695:46 androidx.localbroadcastmanager:localbroadcastmanager
+1742:46 com.google.android.exoplayer:exoplayer-extractor
+1789:46 androidx.compose.ui:ui-unit
+1836:46 com.squareup.okhttp3:okhttp
+1883:47 io.coil-kt:coil
+1931:47 com.google.code.gson:gson
+1979:46 androidx.startup:startup-runtime
+2026:47 org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm
+2074:46 androidx.documentfile:documentfile
+2121:47 com.squareup.leakcanary:shark-hprof
+2169:46 androidx.vectordrawable:vectordrawable-animated
+2216:46 androidx.appcompat:appcompat
+2263:47 com.android.installreferrer:installreferrer
+2311:46 com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter
+2358:46 androidx.core:core-ktx
+2405:46 androidx.coordinatorlayout:coordinatorlayout
+2452:54 com.facebook.soloader:soloader
+2507:46 io.insert-koin:koin-androidx-compose
+2554:46 androidx.drawerlayout:drawerlayout
+2601:46 androidx.emoji:emoji-appcompat
+2648:47 com.squareup.leakcanary:shark
+2696:46 androidx.vectordrawable:vectordrawable
+2743:46 androidx.lifecycle:lifecycle-common-java8
+2790:46 androidx.cursoradapter:cursoradapter
+2837:46 androidx.legacy:legacy-support-core-utils
+2884:46 androidx.lifecycle:lifecycle-viewmodel-ktx
+2931:46 androidx.cardview:cardview
+2978:47 io.coil-kt:coil-gif
+3026:47 com.squareup.leakcanary:leakcanary-object-watcher-android
+3074:46 org.greenrobot:eventbus
+3121:46 androidx.print:print
+3168:47 com.squareup.leakcanary:leakcanary-object-watcher-android-androidx
+3216:46 androidx.compose.ui:ui-graphics
+3263:46 androidx.appcompat:appcompat-resources
+3310:47 com.squareup.leakcanary:leakcanary-object-watcher-android-core
+3358:46 com.squareup.retrofit2:converter-gson
+3405:46 androidx.interpolator:interpolator
+3452:46 androidx.annotation:annotation-experimental
+3499:46 io.insert-koin:koin-core-jvm
+3546:46 androidx.constraintlayout:constraintlayout-solver
+3593:46 androidx.viewpager2:viewpager2
+3640:46 androidx.compose.runtime:runtime-saveable
+3687:46 androidx.transition:transition
+3734:47 com.squareup.leakcanary:shark-graph
+3782:50 com.adjust.sdk:adjust-android
+3833:47 com.squareup.leakcanary:leakcanary-object-watcher
+3881:47 com.squareup.leakcanary:leakcanary-android-utils
+3929:46 androidx.dynamicanimation:dynamicanimation
+3976:46 androidx.compose.ui:ui
+4023:46 io.insert-koin:koin-android-compat
+4070:46 androidx.compose.ui:ui-geometry
+4117:46 androidx.lifecycle:lifecycle-viewmodel-compose
+4164:46 com.squareup.retrofit2:retrofit
+4211:53 com.facebook.flipper:flipper-network-plugin
+4265:46 com.google.android.material:material
+4312:53 com.facebook.flipper:flipper
+4366:46 androidx.recyclerview:recyclerview
+4413:47 com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments
+4461:46 org.jetbrains.kotlin:kotlin-parcelize-runtime
+4508:46 com.squareup.okio:okio-jvm
+4555:46 androidx.compose.ui:ui-text
+4602:47 io.coil-kt:coil-base
+4650:54 com.facebook.soloader:annotation
+4705:47 com.squareup.leakcanary:shark-log
+4753:46 org.jetbrains.kotlin:kotlin-android-extensions-runtime
+4800:46 com.google.android.exoplayer:exoplayer-core
+4847:46 androidx.emoji:emoji The Apache Software License, Version 2.0
+4894:59 androidx.emoji:emoji SIL Open Font License, Version 1.1
+4954:45 androidx.emoji:emoji Unicode, Inc. License
+5000:47 com.squareup.leakcanary:leakcanary-android
+5048:46 androidx.compose.runtime:runtime
+5095:54 com.facebook.soloader:nativeloader
+5150:46 androidx.constraintlayout:constraintlayout
+5197:46 com.google.android.exoplayer:exoplayer-common
+5244:47 com.squareup.leakcanary:leakcanary-android-core
+5292:47 com.android.billingclient:billing
+5340:47 com.squareup.leakcanary:shark-android
+5388:47 com.google.android.gms:play-services-measurement-sdk-api
+5436:10691 AndroidX annotation experimental library
+16128:10694 AndroidX architecture core common library
+26823:10694 AndroidX architecture core runtime library
+37518:10694 AndroidX lifecycle common library
+48213:10694 AndroidX lifecycle livedatacore library
+58908:10694 AndroidX lifecycle runtime library
+69603:10694 AndroidX tracing library
+80298:1096 Animal Sniffer
+81395:1892 Checker Framework Annotations
+83288:11357 Error Prone
+94646:11358 Guava JDK5
+106005:11362 Guava JDK7
+117368:13064 J2ObjC
+130433:1602 JSR 305
+132036:11358 JSpecify
+143395:11307 JsInterop Annotations
+154703:102807 Kotlin
+257511:11358 SafeParcelable library
+268870:10695 apksig
+279566:46 com.google.firebase:firebase-installations
+279613:46 com.google.android.datatransport:transport-api
+279660:47 com.google.android.gms:play-services-basement
+279708:47 com.google.firebase:firebase-core
+279756:47 com.google.android.gms:play-services-ads-identifier
+279804:1125 Checker Framework Utilities
+280930:47 com.google.android.gms:play-services-tasks
+280978:46 com.google.firebase:firebase-components
+281025:46 javax.inject:javax.inject
+281072:47 com.google.firebase:firebase-analytics
+281120:47 com.google.android.gms:play-services-measurement-impl
+281168:11358 Google Auto
+292527:11358 JSR 250
+303886:11365 JSR 330
+315252:11358 Tink
+326611:1125 checker_framework_util
+327737:47 com.google.android.gms:play-services-stats
+327785:46 com.google.firebase:firebase-encoders-proto
+327832:47 com.google.firebase:firebase-measurement-connector
+327880:11357 Firebase
+339238:11342 FlatBuffers
+350581:46 com.google.firebase:firebase-annotations
+350628:47 com.google.android.gms:play-services-measurement-base
+350676:46 com.google.firebase:firebase-crashlytics-ndk
+350723:11361 Crashpad
+362085:46 com.google.firebase:firebase-encoders
+362132:47 com.google.android.gms:play-services-measurement-sdk
+362180:46 com.google.firebase:firebase-encoders-json
+362227:46 com.google.firebase:firebase-common
+362274:47 com.google.android.gms:play-services-measurement-api
+362322:46 com.google.android.datatransport:transport-backend-cct
+362369:47 com.google.android.gms:play-services-measurement
+362417:46 com.google.firebase:firebase-installations-interop
+362464:46 com.google.firebase:firebase-crashlytics
+362511:11361 Tape
+373873:46 com.google.android.datatransport:transport-runtime
+373920:46 com.squareup.okio:okio
+373967:46 io.insert-koin:koin-core
+374014:47 org.jetbrains.kotlinx:kotlinx-coroutines-core
+374062:47 org.jetbrains.kotlinx:atomicfu
+374110:46 androidx.navigation:navigation-fragment
+374157:46 androidx.navigation:navigation-ui
+374204:46 androidx.compose.runtime:runtime-livedata
+374251:60 com.airbnb.android:lottie-compose
+374312:47 com.google.android.gms:play-services-cloud-messaging
+374360:65 org.java-websocket:Java-WebSocket
+374426:46 androidx.navigation:navigation-common
+374473:46 androidx.test:core-ktx
+374520:46 com.google.android.exoplayer:exoplayer-hls
+374567:47 com.google.android.play:core-ktx
+374615:46 org.nield:kotlin-statistics
+374662:47 com.google.android.gms:play-services-safetynet
+374710:47 com.google.android.gms:play-services-ads
+374758:11358 Dagger
+386117:12539 ExoPlayer
+398657:11358 Gson
+410016:11358 Volley
+421375:11361 admob
+432737:11358 conscrypt
+444096:10141 customtabsclient
+454238:12834 mp4parser
+467073:9217 p2putils
+476291:47 com.squareup.leakcanary:plumber-android-core
+476339:46 androidx.compose.animation:animation
+476386:46 com.github.bumptech.glide:disklrucache Simplified BSD License
+476433:46 com.github.bumptech.glide:disklrucache The Apache Software License, Version 2.0
+476480:46 androidx.navigation:navigation-ui-ktx
+476527:46 androidx.compose.ui:ui-util
+476574:46 androidx.collection:collection-ktx
+476621:46 dev.chrisbanes.snapper:snapper
+476668:46 com.google.firebase:firebase-datatransport
+476715:47 com.google.firebase:firebase-auth-interop
+476763:74 com.github.cookpad:puree-android
+476838:46 com.google.code.findbugs:jsr305
+476885:46 androidx.navigation:navigation-runtime-ktx
+476932:46 androidx.navigation:navigation-runtime
+476979:52 com.google.android.play:core
+477032:46 androidx.concurrent:concurrent-futures
+477079:46 androidx.compose.ui:ui-tooling
+477126:46 com.google.accompanist:accompanist-pager
+477173:46 com.google.firebase:firebase-dynamic-links
+477220:47 com.google.firebase:firebase-messaging
+477268:16013 Android SDK
+493282:10695 AndroidX activity library
+503978:10695 AndroidX annotation library
+514674:10694 AndroidX architecture core library
+525369:10694 AndroidX architecture library
+536064:10695 AndroidX asynclayoutinflater library
+546760:10695 AndroidX collection library
+557456:10695 AndroidX concurrent futures library
+568152:10695 AndroidX coordinatorlayout library
+578848:10175 AndroidX core library
+589024:10695 AndroidX cursoradapter library
+599720:10695 AndroidX customview library
+610416:10695 AndroidX documentfile library
+621112:10695 AndroidX drawerlayout library
+631808:10695 AndroidX fragment library
+642504:10693 AndroidX interpolator library
+653198:10695 AndroidX legacy coreui library
+663894:10695 AndroidX legacy coreutils library
+674590:10695 AndroidX legacy v4 library
+685286:10694 AndroidX lifecycle viewmodel library
+695981:10693 AndroidX lifecycle viewmodel savedstate library
+706675:10175 AndroidX loader library
+716851:10693 AndroidX localbroadcastmanager library
+727545:10691 AndroidX media base library
+738237:10695 AndroidX print library
+748933:10689 AndroidX savedstate library
+759623:10695 AndroidX swiperefreshlayout library
+770319:10695 AndroidX versionedparcelable library
+781015:10695 AndroidX viewpager library
+791711:47 com.google.android.gms:play-services-oss-licenses
+791759:1732 Protobuf Nano
+793492:680 STL
+794173:11365 absl
+805539:11342 flatbuffers
+816882:11358 safeparcel
+828241:47 com.android.billingclient:billing-ktx
+828289:46 androidx.navigation:navigation-fragment-ktx
+828336:46 com.google.firebase:firebase-perf-ktx
+828383:46 androidx.constraintlayout:constraintlayout-core
+828430:46 androidx.fragment:fragment-ktx
+828477:46 androidx.compose.ui:ui-tooling-data
+828524:46 androidx.browser:browser
+828571:60 com.airbnb.android:lottie
+828632:46 androidx.swiperefreshlayout:swiperefreshlayout
+828679:46 com.google.android.flexbox:flexbox
+828726:46 androidx.activity:activity-compose
+828773:47 com.google.dagger:dagger
+828821:46 androidx.autofill:autofill
+828868:46 com.github.bumptech.glide:okhttp3-integration Simplified BSD License
+828915:46 com.github.bumptech.glide:okhttp3-integration The Apache Software License, Version 2.0
+828962:46 androidx.compose.ui:ui-tooling-preview
+829009:46 androidx.emoji2:emoji2
+829056:46 androidx.customview:customview-poolingcontainer
+829103:46 androidx.profileinstaller:profileinstaller
+829150:46 com.google.firebase:protolite-well-known-types
+829197:47 com.squareup.leakcanary:plumber-android
+829245:46 com.google.firebase:firebase-abt
+829292:46 androidx.compose.foundation:foundation-layout
+829339:46 androidx.exifinterface:exifinterface
+829386:46 androidx.compose.material:material
+829433:47 com.google.firebase:firebase-iid-interop
+829481:46 androidx.room:room-runtime
+829528:46 androidx.lifecycle:lifecycle-livedata-ktx
+829575:46 androidx.test:core
+829622:46 com.google.firebase:firebase-common-ktx
+829669:46 com.github.bumptech.glide:gifdecoder Simplified BSD License
+829716:46 com.github.bumptech.glide:gifdecoder The Apache Software License, Version 2.0
+829763:47 com.google.android.gms:play-services-base
+829811:46 androidx.compose.foundation:foundation
+829858:46 com.squareup.curtains:curtains
+829905:47 io.coil-kt:coil-compose-base
+829953:46 androidx.work:work-runtime
+830000:47 com.google.android.gms:play-services-ads-lite
+830048:46 androidx.compose.animation:animation-core
+830095:46 androidx.sqlite:sqlite-framework
+830142:46 jp.wasabeef:recyclerview-animators
+830189:46 androidx.tracing:tracing
+830236:46 com.github.bumptech.glide:glide Simplified BSD License
+830283:46 com.github.bumptech.glide:glide The Apache Software License, Version 2.0
+830330:47 com.google.android.gms:play-services-appset
+830378:46 androidx.activity:activity-ktx
+830425:46 com.github.zjupure:webpdecoder Simplified BSD License
+830472:46 com.github.zjupure:webpdecoder The Apache Software License, Version 2.0
+830519:46 androidx.savedstate:savedstate-ktx
+830566:46 com.neovisionaries:nv-websocket-client
+830613:46 io.github.aakira:napier-android-debug
+830660:46 com.google.android.exoplayer:exoplayer-ui
+830707:46 androidx.test:monitor
+830754:46 com.google.firebase:firebase-config
+830801:46 androidx.compose.material:material-ripple
+830848:46 com.google.accompanist:accompanist-pager-indicators
+830895:46 androidx.resourceinspection:resourceinspection-annotation
+830942:46 com.google.accompanist:accompanist-drawablepainter
+830989:47 io.coil-kt:coil-compose
+831037:47 com.google.android.gms:play-services-ads-base
+831085:46 androidx.room:room-common
+831132:46 com.github.bumptech.glide:annotations Simplified BSD License
+831179:46 com.github.bumptech.glide:annotations The Apache Software License, Version 2.0
+831226:46 com.google.firebase:firebase-perf
+831273:60 com.facebook.fbjni:fbjni
+831334:46 com.google.accompanist:accompanist-flowlayout
+831381:46 androidx.compose.material:material-icons-core
+831428:46 androidx.emoji2:emoji2-views-helper
+831475:46 jp.wasabeef:glide-transformations
+831522:46 androidx.sqlite:sqlite
+831569:46 androidx.media:media
+831616:47 com.google.android.ump:user-messaging-platform
+831664:46 androidx.navigation:navigation-common-ktx
+831711:46 androidx.lifecycle:lifecycle-livedata-core-ktx
+831758:41 junit:junit
+831800:46 com.willowtreeapps.hyperion:hyperion-recorder
+831847:46 com.willowtreeapps.hyperion:hyperion-crash
+831894:46 com.willowtreeapps.hyperion:hyperion-attr
+831941:46 com.willowtreeapps.hyperion:hyperion-shared-preferences
+831988:46 com.willowtreeapps.hyperion:hyperion-core
+832035:46 com.willowtreeapps.hyperion:hyperion-measurement
+832082:46 com.willowtreeapps.hyperion:hyperion-disk
+832129:46 com.willowtreeapps.hyperion:hyperion-phoenix
+832176:46 com.willowtreeapps.hyperion:hyperion-geiger-counter
+832223:46 com.willowtreeapps.hyperion:hyperion-plugin
+832270:46 io.github.aakira:napier-android
+832317:42 com.github.takahirom:Hyperion-Simple-Item
+832360:53 com.facebook.flipper:flipper-noop
+832414:61 WebRTC
+832476:56 world
+832533:59 M PLUS Rounded 1c
+832593:5715 Unity

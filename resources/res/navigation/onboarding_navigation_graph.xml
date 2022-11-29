@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/onboarding_navigation_graph" app:startDestination="@+id/onboardingIntroductionFragment">
+    <fragment android:label="OnboardingFirstFragment" android:name="com.dena.mirrorman.fragment.RegisterOrLoginWithTwitterFragment" android:id="@+id/onboardingIntroductionFragment"/>
+    <fragment android:label="ChooseMyAppsFragment" android:name="com.dena.mirrorman.fragment.ChooseMyAppsFragment" android:id="@+id/chooseMyAppsFragment"/>
+    <action android:id="@+id/to_chooseMyAppsFragment" app:destination="@+id/chooseMyAppsFragment" app:popUpTo="@+id/onboardingIntroductionFragment" app:popUpToInclusive="true"/>
+    <fragment android:label="ChooseMyProfileFragment" android:name="com.dena.mirrorman.fragment.ChooseMyProfileFragment" android:id="@+id/chooseMyProfileFragment"/>
+    <action android:id="@+id/to_chooseMyProfileFragment" app:destination="@+id/chooseMyProfileFragment" app:popUpTo="@+id/onboardingIntroductionFragment" app:popUpToInclusive="true"/>
+    <fragment android:label="MakeEmomoOnboardingFragment" android:name="com.dena.mirrativ.otherfeature.onboarding.MakeEmomoOnboardingFragment" android:id="@+id/makeEmomoOnboardingFragment"/>
+    <action android:id="@+id/to_makeEmomoOnboardingFragment" app:destination="@+id/makeEmomoOnboardingFragment" app:popUpTo="@+id/onboardingIntroductionFragment" app:popUpToInclusive="true"/>
+    <fragment android:label="OnboardingSurveyFragment" android:name="com.dena.mirrativ.otherfeature.onboarding.OnboardingSurveyFragment" android:id="@+id/onboardingSurveyFragment"/>
+    <action android:id="@+id/to_onboardingSurveyFragment" app:destination="@+id/makeEmomoOnboardingFragment" app:popUpTo="@+id/onboardingIntroductionFragment" app:popUpToInclusive="true"/>
+</navigation>

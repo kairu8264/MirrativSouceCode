@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:id="@+id/colabo_reject" android:tag="layout/floating_collab_reject_dialog_0" android:background="@color/blackThree80" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/rectangle_corner4_whitethree_shadow" android:focusable="true" android:clickable="true" android:layout_width="270dp" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <androidx.appcompat.widget.AppCompatTextView android:gravity="center_horizontal" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="19dp" android:text="@string/text_turn_down_description" style="@style/TextSlateGray.Small"/>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:background="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:layout_centerInParent="true">
+            <CheckBox android:theme="@style/DialogCheckbox" android:id="@+id/never_ask" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false"/>
+            <androidx.appcompat.widget.AppCompatTextView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_denial" style="@style/TextSlateGray.Small"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="48dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="20dp" android:layout_centerInParent="true">
+            <androidx.appcompat.widget.AppCompatButton android:textSize="12sp" android:textColor="@color/warmGray" android:gravity="center" android:id="@+id/cancel" android:background="@drawable/rectangle_stroke_pinkishgray_corner4_transparent" android:layout_width="114dp" android:layout_height="match_parent" android:text="@string/text_cancel" android:layout_marginEnd="8dp"/>
+            <androidx.appcompat.widget.AppCompatButton android:textSize="14sp" android:textColor="@color/whiteThree" android:gravity="center" android:id="@+id/reject" android:background="@drawable/btn_rectangle_corner4_tealish" android:layout_width="114dp" android:layout_height="match_parent" android:text="@string/text_turn_down"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

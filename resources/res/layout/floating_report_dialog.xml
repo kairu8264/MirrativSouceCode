@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:theme="@style/MirrativAlertDialog" android:gravity="center" android:id="@+id/root" android:tag="layout/floating_report_dialog_0" android:background="@color/blackThree80" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:background="@drawable/rectangle_corner4_whitethree" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.dena.mirrorman.feature.main.ReportDialogView android:id="@+id/report_view" android:paddingLeft="12dp" android:paddingRight="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</RelativeLayout>

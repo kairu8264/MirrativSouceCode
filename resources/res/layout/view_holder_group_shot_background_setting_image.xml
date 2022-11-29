@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dena.mirrorman.customview.GroupShotBackgroundSettingItemView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/item_view" android:tag="layout/view_holder_group_shot_background_setting_image_0" android:layout_width="@dimen/group_shot_background_setting_view_size" android:layout_height="@dimen/group_shot_background_setting_view_size"/>

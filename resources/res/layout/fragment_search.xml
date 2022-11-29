@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/fragment_search_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar android:id="@+id/search_toolbar" android:background="@mipmap/header_bg" android:layout_width="match_parent" android:layout_height="@dimen/toolbar_search_height" android:minHeight="0dp" app:layout_constraintTop_toTopOf="0">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginRight="12dp">
+            <LinearLayout android:orientation="horizontal" android:background="@drawable/rectangle_corner4_whitethree" android:layout_width="match_parent" android:layout_height="32dp">
+                <RelativeLayout android:id="@+id/search_container" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginLeft="4dp" android:layout_marginRight="4dp">
+                    <ImageButton android:id="@+id/search_button" android:background="@mipmap/btn_search_gray" android:layout_width="16dp" android:layout_height="16dp" android:layout_centerInParent="true"/>
+                </RelativeLayout>
+                <EditText android:layout_gravity="center_vertical" android:id="@+id/search_edit_text" android:background="@null" android:paddingLeft="6dp" android:paddingRight="6dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:inputType="text" android:imeOptions="flagNoFullscreen|actionSearch" android:paddingStart="6dp" android:paddingEnd="6dp" style="@style/EditTextSlategraySmall"/>
+                <ImageButton android:id="@+id/clear_button" android:background="@mipmap/btn_close" android:visibility="gone" android:layout_width="32dp" android:layout_height="32dp"/>
+            </LinearLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.dena.mirrorman.widget.PagerSlidingTab android:id="@+id/tabs" android:layout_width="wrap_content" android:layout_height="@dimen/tab_height" android:layout_centerInParent="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <com.dena.mirrorman.widget.SafeViewPager android:id="@+id/pager" android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintTop_toBottomOf="@+id/search_toolbar"/>
+    <View android:background="@drawable/drop_shadow" android:layout_width="match_parent" android:layout_height="4dp" app:layout_constraintTop_toBottomOf="@+id/search_toolbar"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

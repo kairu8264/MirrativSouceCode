@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:tag="layout/floating_tutorial_live_link_dialog_0" android:background="@color/blackThree80" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/rectangle_corner4_whitethree" android:focusable="true" android:clickable="true" android:layout_width="260dp" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@mipmap/img_popup_friend_link" android:scaleType="centerCrop"/>
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="14sp" android:textStyle="bold" android:textColor="@color/slateGray" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginBottom="4dp" android:text="@string/text_friend_link_ttl"/>
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="11sp" android:textColor="@color/slateGray" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginTop="4dp" android:layout_marginRight="12dp" android:layout_marginBottom="4dp" android:text="@string/text_friend_link_body"/>
+        <FrameLayout android:id="@+id/okButtonView" android:paddingTop="12dp" android:paddingBottom="12dp" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="12sp" android:textColor="@color/whiteThree" android:gravity="center" android:layout_gravity="center_horizontal" android:background="@drawable/btn_rectangle_corner4_tealish" android:layout_width="236dp" android:layout_height="40dp" android:text="@string/text_ok"/>
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

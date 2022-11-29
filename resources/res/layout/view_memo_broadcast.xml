@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:tag="layout/view_memo_broadcast_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/control_anchor_view" android:layout_width="@dimen/float_control_width" android:layout_height="@dimen/float_control_height" android:layout_centerInParent="true"/>
+    <RelativeLayout android:id="@+id/body" android:layout_width="260dp" android:layout_height="@dimen/float_control_memo_broadcast_body_height" android:layout_marginTop="@dimen/float_control_live_memo_setting_marginTop" android:layout_alignTop="@+id/control_anchor_view" android:layout_marginStart="@dimen/float_control_live_memo_setting_marginStart" android:layout_alignStart="@+id/control_anchor_view">
+        <LinearLayout android:orientation="vertical" android:id="@+id/container" android:background="@drawable/rectangle_corner4_whitethree_shadow" android:focusable="true" android:clickable="true" android:layout_width="260dp" android:layout_height="@dimen/float_control_memo_broadcast_container_height" android:layout_alignParentBottom="true">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="40dp">
+                <androidx.appcompat.widget.AppCompatTextView android:textStyle="bold" android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/text_memo" android:maxLines="1" android:layout_weight="1" android:layout_marginStart="10dp" style="@style/TextSlateGray.Small"/>
+                <androidx.appcompat.widget.AppCompatTextView android:layout_gravity="center_vertical" android:id="@+id/memo_counter" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextPinkishGray.Small"/>
+                <androidx.appcompat.widget.AppCompatTextView android:layout_gravity="center_vertical" android:id="@+id/save_memo_broadcast" android:padding="9dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_save" style="@style/TextButton.Small"/>
+            </LinearLayout>
+            <View android:background="@color/whiteTwo" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <EditText android:gravity="start" android:id="@+id/edittext_memo_broadcast" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="10dp" android:layout_marginTop="5dp" android:layout_marginRight="10dp" android:layout_marginBottom="5dp" android:hint="@string/text_memo_default" android:scrollHorizontally="true" android:layout_weight="1" android:imeOptions="actionDone" style="@style/EditTextSlategrayNormal"/>
+        </LinearLayout>
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-2dp" android:layout_above="@+id/container" android:layout_alignEnd="@+id/container">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/memo_arrow" android:layout_width="16dp" android:layout_height="8dp" android:src="@mipmap/tutorial_arrow_top_white" android:scaleType="fitXY" android:layout_marginEnd="20dp"/>
+        </FrameLayout>
+    </RelativeLayout>
+    <com.dena.mirrativ.streaming.floating.setting.FloatingCopyPasteView android:id="@+id/copy_and_paste" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-68dp" android:layout_above="@+id/body" android:layout_marginStart="48dp" android:layout_alignStart="@+id/body"/>
+</RelativeLayout>

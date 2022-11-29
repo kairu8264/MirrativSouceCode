@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:height="15dp" android:width="31dp" android:viewportWidth="31" android:viewportHeight="15">
+    <path android:fillColor="@drawable/res_0x7f080006_bg_badge_yell_rank_leader_diamond__0" android:pathData="M2.113,0.055L28.113,0.055A2,2 0,0 1,30.113 2.055L30.113,12.055A2,2 0,0 1,28.113 14.055L2.113,14.055A2,2 0,0 1,0.113 12.055L0.113,2.055A2,2 0,0 1,2.113 0.055z"/>
+</vector>

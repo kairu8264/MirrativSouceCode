@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/collab_setting_root" android:tag="layout/view_collab_user_setting_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/control_anchor_view" android:layout_width="@dimen/float_control_width" android:layout_height="@dimen/float_control_height" android:layout_centerInParent="true"/>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/container" android:background="@drawable/rectangle_corner4_whitethree_shadow" android:paddingLeft="10dp" android:paddingTop="14dp" android:paddingRight="10dp" android:paddingBottom="14dp" android:focusable="true" android:clickable="true" android:layout_width="236dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/float_control_collab_setting_marginTop" android:layout_alignTop="@+id/control_anchor_view" android:layout_marginStart="@dimen/float_control_collab_setting_marginStart" android:layout_alignStart="@+id/control_anchor_view">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView android:textStyle="bold" android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/text_collab_setting" android:maxLines="1" android:layout_weight="1" style="@style/TextSlateGray.Small"/>
+            <Switch android:layout_gravity="center_vertical" android:id="@+id/switch_collab" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:baselineAligned="false">
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <androidx.appcompat.widget.AppCompatTextView android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_collab_number_of_people" android:maxLines="1" style="@style/TextSlateGray.Small"/>
+                <androidx.appcompat.widget.AppCompatTextView android:id="@+id/text_collab_max" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="@string/text_collab_maximum" style="@style/TextSlateGray.Micro"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:background="@drawable/rectangle_corner20_pinkishgray30" android:layout_width="104dp" android:layout_height="36dp">
+                <ImageButton android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@+id/btn_decrease_max_collab_user_num" android:background="@drawable/btn_circle_minus" android:clickable="false" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginStart="2dp"/>
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="36dp" android:layout_height="36dp">
+                    <androidx.appcompat.widget.AppCompatTextView android:textStyle="bold" android:id="@+id/max_collab_user_num_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextSlateGray.Small"/>
+                </LinearLayout>
+                <ImageButton android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@+id/btn_increase_max_collab_user_num" android:background="@drawable/btn_circle_plus" android:clickable="false" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginRight="2dp" android:layout_marginEnd="2dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-7dp" android:layout_below="@+id/container" android:layout_marginStart="20dp" android:layout_alignStart="@+id/container">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@+id/collab_arrow" android:layout_width="16dp" android:layout_height="8dp" android:src="@mipmap/tutorial_arrow_bottom_white" android:scaleType="fitXY"/>
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/root_container" android:tag="layout/dialog_fragment_gift_gacha_open_rare_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.airbnb.lottie.LottieAnimationView android:id="@+id/lottie_animation_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" app:lottie_fileName="gift_gacha_rare4_background_paper.json" app:lottie_loop="true"/>
+    <FrameLayout android:id="@+id/fragment_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.dena.mirrorman.customview.GiftGachaRare4OpenAnimationView android:id="@+id/open_animation_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

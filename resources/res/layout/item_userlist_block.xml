@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="4dp">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@+id/image" android:layout_width="32dp" android:layout_height="32dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        <androidx.appcompat.widget.AppCompatTextView android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginRight="8dp" android:maxLines="2" android:layout_toLeftOf="@+id/block_status" android:layout_toRightOf="@+id/image" android:layout_centerVertical="true" style="@style/TextWhiteThree.Small"/>
+        <RelativeLayout android:id="@+id/block_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/unblock" android:background="@drawable/ripple_tealish30_nomask" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/btn_restricted" android:layout_centerVertical="true"/>
+            <androidx.appcompat.widget.AppCompatButton android:gravity="center" android:id="@+id/block" android:paddingRight="6dp" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="30dp" android:text="@string/text_block" android:drawableLeft="@mipmap/ic_restricted" android:layout_centerVertical="true" style="@style/Button.StrokeCorner4_pinkishGray.Small"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <androidx.appcompat.widget.AppCompatTextView android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/description" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4dp" android:maxLines="1" style="@style/TextWarmGray.Normal"/>
+</LinearLayout>

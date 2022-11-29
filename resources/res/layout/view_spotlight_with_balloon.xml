@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/container" android:tag="layout/view_spotlight_with_balloon_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.dena.mirrorman.customview.SpotlightView android:id="@+id/spotlight_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.dena.mirrorman.customview.BalloonTextView android:id="@+id/balloon_text_view" android:layout_width="240dp" android:layout_height="wrap_content" app:balloonImageViewResourceId="@drawable/emokara_mirrabit" app:layout_constraintBottom_toTopOf="@+id/anchor_view" app:layout_constraintEnd_toEndOf="@+id/anchor_view" app:layout_constraintStart_toStartOf="@+id/anchor_view"/>
+    <View android:id="@+id/anchor_view" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

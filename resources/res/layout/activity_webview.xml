@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:tag="layout/activity_webview_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <WebView android:id="@+id/web_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.dena.mirrativ.customview.StatusView android:id="@+id/status_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</RelativeLayout>

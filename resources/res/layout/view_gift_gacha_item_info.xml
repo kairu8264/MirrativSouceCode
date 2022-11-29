@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/view_gift_gacha_item_info_0" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.dena.mirrorman.customview.MultipleStarView android:id="@+id/multiple_star_view" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:multipleStarViewIconSize="12dp"/>
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="10sp" android:textStyle="bold" android:id="@+id/info_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/multiple_star_view"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

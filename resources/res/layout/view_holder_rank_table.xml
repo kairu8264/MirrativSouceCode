@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:tag="layout/view_holder_rank_table_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="1dp">
+    <FrameLayout android:background="@color/whiteThree" android:layout_width="0dp" android:layout_height="36dp" android:layout_weight="1">
+        <androidx.appcompat.widget.AppCompatTextView android:textAppearance="@style/Body3.Bold" android:gravity="center" android:layout_gravity="center" android:id="@+id/first_text" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </FrameLayout>
+    <Space android:layout_width="1dp" android:layout_height="wrap_content"/>
+    <FrameLayout android:background="@color/whiteThree" android:layout_width="0dp" android:layout_height="36dp" android:layout_weight="1">
+        <androidx.appcompat.widget.AppCompatTextView android:textAppearance="@style/Body3.Bold" android:textColor="@color/slateGray" android:gravity="center" android:layout_gravity="center" android:id="@+id/second_text" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </FrameLayout>
+    <Space android:layout_width="1dp" android:layout_height="wrap_content"/>
+    <FrameLayout android:background="@color/whiteThree" android:layout_width="0dp" android:layout_height="36dp" android:layout_weight="1">
+        <androidx.appcompat.widget.AppCompatTextView android:textAppearance="@style/Body3.Bold" android:textColor="@color/slateGray" android:gravity="center" android:layout_gravity="center" android:id="@+id/third_text" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </FrameLayout>
+</LinearLayout>

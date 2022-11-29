@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/view_float_toast_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginHorizontal="24dp">
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/rectangle_corner12_blackthree50" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="260dp" android:minHeight="60dp">
+        <androidx.appcompat.widget.AppCompatTextView android:gravity="center" android:id="@+id/message_text_view" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="@style/TextWhiteThree.Large"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

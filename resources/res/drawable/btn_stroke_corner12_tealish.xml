@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:drawable="@drawable/rectangle_corner12_blackthree30"/>
+    <item android:state_enabled="true">
+        <ripple android:color="@color/tealish30">
+            <item android:id="@android:id/mask" android:drawable="@drawable/rectangle_corner12_whitethree"/>
+            <item android:drawable="@drawable/rectangle_stroke_tealish_corner12_transparent"/>
+        </ripple>
+    </item>
+</selector>

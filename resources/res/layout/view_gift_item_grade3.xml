@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/view_gift_item_grade3_0" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.airbnb.lottie.LottieAnimationView android:id="@+id/lottie_animation_view" android:layout_width="114dp" android:layout_height="114dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:lottie_cacheComposition="false" app:lottie_fileName="gift_100.json"/>
+    <View android:id="@+id/image_place_view" android:layout_width="40dp" android:layout_height="40dp" app:layout_constraintBottom_toBottomOf="@+id/lottie_animation_view" app:layout_constraintEnd_toEndOf="@+id/lottie_animation_view" app:layout_constraintStart_toStartOf="@+id/lottie_animation_view" app:layout_constraintTop_toTopOf="@+id/lottie_animation_view"/>
+    <View android:id="@+id/content_place_view" android:layout_width="76dp" android:layout_height="76dp" app:layout_constraintStart_toStartOf="@+id/image_place_view" app:layout_constraintTop_toTopOf="@+id/image_place_view"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

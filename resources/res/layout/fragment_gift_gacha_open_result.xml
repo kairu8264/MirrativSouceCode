@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/fragment_gift_gacha_open_result_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.dena.mirrorman.customview.GiftGachaOpenResultView android:id="@+id/gift_gacha_open_result_view" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@+id/close_image_view" android:padding="16dp" android:layout_width="52dp" android:layout_height="52dp" android:src="@drawable/ic_close_white" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <View android:id="@+id/prevent_user_interaction_view" android:focusable="true" android:clickable="true" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

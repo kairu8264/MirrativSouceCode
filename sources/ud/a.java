@@ -1,0 +1,63 @@
+package ud;
+
+/* loaded from: classes2.dex */
+public interface a {
+
+    /* renamed from: ud.a$a  reason: collision with other inner class name */
+    /* loaded from: classes2.dex */
+    public enum EnumC0862a {
+        LIVE_INFO_WITH_APP,
+        LIVE_INFO_NO_APP,
+        LIVE_VIEWERS_INFO,
+        LIVE_VIEWER,
+        APP,
+        ADD_TO_MY_APP,
+        LOADING,
+        MY_CHAT_TUTORIAL,
+        MY_CHAT_REQUEST_CONFIRMATION,
+        MY_CHAT_UNDERAGE_UNAVAILABLE,
+        MESSAGE,
+        NEXT_LIVE_ANNOUNCEMENT,
+        EDITABLE_NEXT_LIVE_ANNOUNCEMENT,
+        LIVE_HISTORY,
+        VIEW_HISTORY,
+        MY_CHAT_THREAD,
+        NO_CONTENTS,
+        APP_SETTING,
+        APP_SETTING_FOOTER,
+        GIFT_PANEL_GIFT,
+        GIFT_PANEL_BANNER,
+        GIFT_PANEL_EMPTY,
+        GIFT_PANEL_GACHA_TICKET,
+        GIFT_RANKING_TERM,
+        GIFT_RANKING_REWARD,
+        GIFT_RANKING_RULE,
+        GIFT_RANKING_CURRENT_USER_RANK,
+        GIFT_RANKING_CURRENT_USER_REWARD,
+        GIFT_RANKING_WHOLE_RANKING_USER,
+        GIFT_RANKING_EXPAND,
+        GIFT_RANKING_RANK_UP_NEARBY_USER,
+        GIFT_RANKING_RANK_UP_NEARBY_DUMMY_USER,
+        CURRENT_USER_GIFT_RANKING,
+        CAMPAIGN_MISSION_PROGRESS_BAR,
+        CAMPAIGN_MISSION_DATE,
+        EMOMO_RUN_RANKING_REWARD,
+        EMOMO_RUN_GIFT,
+        LANDING_PAGE_REWARD,
+        LANDING_PAGE_RANKING_LIST,
+        LANDING_PAGE_RANKING_USER,
+        LANDING_PAGE_DESCRIPTION,
+        SHOOTER_RANKING_USER,
+        SHOOTER_RANKING_EXPAND,
+        SHOOTER_HIGH_SCORE_TEAM_MEMBER,
+        SHOOTER_RATING_TEAM_MEMBER,
+        STAMP_GIFT_TEXT_ALIGN,
+        STAMP_GIFT_COLOR_PALETTE,
+        SEPARATOR,
+        UNIQUE_EMOMO_RICH_GIFT_PRESET,
+        GIFT_GACHA_STOCK,
+        GIFT_GACHA_STOCK_MUTUAL
+    }
+
+    EnumC0862a getType();
+}

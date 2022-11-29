@@ -1,0 +1,40 @@
+package ae;
+
+import android.view.View;
+import androidx.appcompat.widget.AppCompatImageView;
+import androidx.appcompat.widget.AppCompatTextView;
+import androidx.constraintlayout.widget.Guideline;
+import androidx.databinding.ViewDataBinding;
+
+/* loaded from: classes2.dex */
+public abstract class sb extends ViewDataBinding {
+    public final Guideline B;
+    public final Guideline C;
+    public final Guideline D;
+    public final Guideline E;
+    public final AppCompatImageView F;
+    public final AppCompatImageView G;
+    public final AppCompatImageView H;
+    public final AppCompatTextView I;
+    public final AppCompatTextView J;
+    public final AppCompatImageView K;
+    public final AppCompatTextView L;
+    public ud.g1 M;
+
+    public sb(Object obj, View view, int i10, Guideline guideline, Guideline guideline2, Guideline guideline3, Guideline guideline4, AppCompatImageView appCompatImageView, AppCompatImageView appCompatImageView2, AppCompatImageView appCompatImageView3, AppCompatTextView appCompatTextView, AppCompatTextView appCompatTextView2, AppCompatImageView appCompatImageView4, AppCompatTextView appCompatTextView3) {
+        super(obj, view, i10);
+        this.B = guideline;
+        this.C = guideline2;
+        this.D = guideline3;
+        this.E = guideline4;
+        this.F = appCompatImageView;
+        this.G = appCompatImageView2;
+        this.H = appCompatImageView3;
+        this.I = appCompatTextView;
+        this.J = appCompatTextView2;
+        this.K = appCompatImageView4;
+        this.L = appCompatTextView3;
+    }
+
+    public abstract void T(ud.g1 g1Var);
+}

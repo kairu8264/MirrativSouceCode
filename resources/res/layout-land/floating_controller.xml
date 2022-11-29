@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:tag="layout-land/floating_controller_0" android:background="@drawable/rectangle_corner4_blackthree80" android:focusable="true" android:clickable="true" android:layout_width="@dimen/float_control_width_landscape" android:layout_height="@dimen/float_control_height_landscape">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@+id/close_control" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" style="@style/CloseButton.WhiteThree30"/>
+    <ImageButton android:id="@+id/back_to_normal" android:background="@drawable/ripple_whitethree30_nomask" android:visibility="invisible" android:layout_width="40dp" android:layout_height="40dp" android:src="@mipmap/btn_back" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true"/>
+    <ScrollView android:id="@+id/edit_content" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/float_control_margin_side_landscape" android:layout_marginRight="@dimen/float_control_margin_side_landscape" android:layout_marginBottom="16dp" android:fillViewport="true" android:layout_below="@+id/close_control" android:layout_alignBottom="@+id/normal_content">
+        <com.dena.mirrativ.streaming.floating.control.FloatingControlEditView android:id="@+id/edit_view" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </ScrollView>
+    <RelativeLayout android:id="@+id/normal_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/float_control_margin_side_landscape" android:layout_marginTop="-10dp" android:layout_marginRight="@dimen/float_control_margin_side_landscape" android:layout_below="@+id/close_control">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/live_title_layout" android:background="@drawable/edit_text_bottom_line" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+            <androidx.appcompat.widget.AppCompatTextView android:ellipsize="end" android:gravity="center" android:id="@+id/live_title" android:background="@null" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="0dp" android:layout_height="wrap_content" android:minHeight="40dp" android:maxLines="1" android:layout_weight="1" style="@style/TextWhiteThree.Large"/>
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:id="@+id/app_icon" android:visibility="gone" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginRight="8dp" android:scaleType="fitCenter" android:layout_marginStart="4dp"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false" android:layout_below="@+id/live_title_layout">
+            <LinearLayout android:orientation="vertical" android:layout_width="264dp" android:layout_height="match_parent" android:layout_weight="1">
+                <com.dena.mirrativ.streaming.floating.setting.FloatingSettingRecyclerView android:id="@+id/float_setting" android:layout_width="match_parent" android:layout_height="@dimen/float_setting_grid_height"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:tag="binding_1" android:layout_width="148dp" android:layout_height="wrap_content" android:layout_marginTop="36dp" android:layout_weight="1">
+                <include android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/btn_share_stream"/>
+                <include android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" layout="@layout/btn_block"/>
+                <RelativeLayout android:id="@+id/playstop" android:background="@drawable/btn_rectangle_corner20_whitethree" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginTop="20dp">
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@+id/playstop_image" android:layout_width="12dp" android:layout_height="12dp" android:src="@mipmap/ic_strm_rec" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginStart="16dp" android:layout_alignParentStart="true"/>
+                    <androidx.appcompat.widget.AppCompatTextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_stop_broadcast" android:layout_centerInParent="true" style="@style/TextGrapefruit.Normal"/>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:id="@+id/live_stats" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="55dp" android:layout_alignParentBottom="true" android:layout_marginEnd="20dp" android:layout_alignParentEnd="true">
+        <androidx.appcompat.widget.AppCompatTextView android:id="@+id/streaming_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_casting_time" style="@style/TextWhiteThree.Small"/>
+        <androidx.appcompat.widget.AppCompatTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:text="|" style="@style/TextWhiteThree.Small"/>
+        <androidx.appcompat.widget.AppCompatTextView android:id="@+id/total_viewers" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_total_viewers" style="@style/TextWhiteThree.Small"/>
+    </LinearLayout>
+    <ImageButton android:gravity="center_horizontal" android:layout_gravity="end" android:id="@+id/btn_help" android:background="@drawable/btn_setting_question" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" style="@style/BroadcastFloatSettingsItemImage"/>
+</RelativeLayout>

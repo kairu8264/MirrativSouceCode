@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/fragment_group_shot_finish_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.dena.mirrorman.customview.RoundedButtonView android:id="@+id/finish_button_view" android:layout_width="195dp" android:layout_height="40dp" android:layout_marginBottom="30dp" app:borderColor="@color/whiteThree" app:borderWidth="1dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:roundedButtonViewBackgroundColor="@color/blackThree90" app:title="@string/text_groupshot_done" app:titleColor="@color/whiteThree" app:titleSize="12sp" app:titleStyle="0x1"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/recycler_view_container" android:tag="layout/view_holder_gift_gacha_roulette_0" android:layout_width="match_parent" android:layout_height="30dp">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/avoid_clip_children_container" android:layout_width="match_parent" android:layout_height="60dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintTop_toTopOf="0">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/recycler_view" android:layout_width="match_parent" android:layout_height="900dp" app:layout_constraintBottom_toBottomOf="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

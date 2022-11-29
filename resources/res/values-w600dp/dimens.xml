@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="float_comment_container_width">300dp</dimen>
+    <dimen name="float_comment_width">420dp</dimen>
+</resources>

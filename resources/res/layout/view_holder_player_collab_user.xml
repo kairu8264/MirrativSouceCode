@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/view_holder_player_collab_user_0" android:layout_width="64dp" android:layout_height="64dp">
+    <View android:background="@drawable/oval_shadow" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@+id/bg_image_view" android:layout_width="56dp" android:layout_height="56dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@+id/profile_image_view" android:layout_width="48dp" android:layout_height="48dp" app:layout_constraintBottom_toBottomOf="@+id/bg_image_view" app:layout_constraintEnd_toEndOf="@+id/bg_image_view" app:layout_constraintStart_toStartOf="@+id/bg_image_view" app:layout_constraintTop_toTopOf="@+id/bg_image_view"/>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@+id/icon_image_view" android:layout_width="18dp" android:layout_height="18dp" app:layout_constraintBottom_toBottomOf="@+id/profile_image_view" app:layout_constraintEnd_toEndOf="@+id/profile_image_view"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/item_emokara_genres_0" android:layout_width="match_parent" android:layout_height="92dp">
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@+id/genre_recycler_view" android:layout_width="wrap_content" android:layout_height="92dp" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:spanCount="3"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

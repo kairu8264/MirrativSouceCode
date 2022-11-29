@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/view_holder_switchable_event_banner_0" android:layout_width="55dp" android:layout_height="62dp">
+    <View android:id="@+id/round_border_view" android:background="@drawable/bg_switchable_event_banner_icon_view_focused" android:layout_width="55dp" android:layout_height="55dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0"/>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@+id/image_view" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginTop="11dp" android:scaleType="fitXY" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@+id/focused_event_image_view" android:visibility="visible" android:layout_width="@dimen/size48dp" android:layout_height="15dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

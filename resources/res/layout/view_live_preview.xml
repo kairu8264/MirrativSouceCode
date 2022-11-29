@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" android:tag="layout/view_live_preview_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@+id/preview_image_view" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@+id/background_image_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/preview_container" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextureView android:id="@+id/preview_texture_view" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

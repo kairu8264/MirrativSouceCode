@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/bottom_navigation_navigation_graph" app:startDestination="@+id/homeCatalogFragment">
+    <fragment android:label="HomeCatalogFragment" android:name="com.dena.mirrativ.catalog.home.HomeCatalogFragment" android:id="@+id/homeCatalogFragment"/>
+    <action android:id="@+id/to_select" app:destination="@+id/homeCatalogFragment" app:launchSingleTop="true"/>
+    <fragment android:label="FollowCatalogFragment" android:name="com.dena.mirrativ.catalog.follow.FollowCatalogFragment" android:id="@+id/followCatalogFragment"/>
+    <action android:id="@+id/to_follows" app:destination="@+id/followCatalogFragment" app:launchSingleTop="true"/>
+    <fragment android:label="NoticeFragment" android:name="com.dena.mirrativ.notification.NoticeFragment" android:id="@+id/noticeFragment"/>
+    <action android:id="@+id/to_notice" app:destination="@+id/noticeFragment" app:launchSingleTop="true"/>
+    <fragment android:label="LiveGameFragment" android:name="com.dena.mirrativ.livegame.LiveGameFragment" android:id="@+id/liveGameFragment"/>
+    <action android:id="@+id/to_live_game_listing" app:destination="@+id/liveGameFragment" app:launchSingleTop="true"/>
+    <fragment android:label="LiveGameFragment" android:name="com.dena.mirrativ.user.mypage.MyPageFragment" android:id="@+id/myPageFragment"/>
+    <action android:id="@+id/to_my_page" app:destination="@+id/myPageFragment" app:launchSingleTop="true"/>
+</navigation>

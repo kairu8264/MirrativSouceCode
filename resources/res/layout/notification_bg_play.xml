@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="48dp" android:foreground="@drawable/ripple_whitethree_mask_rectangle">
+    <ImageView android:id="@+id/background" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@color/cover"/>
+    <ImageView android:id="@+id/icon" android:padding="8dp" android:layout_width="48dp" android:layout_height="48dp" android:src="@mipmap/ic_info_mirrativ" android:layout_centerVertical="true" android:layout_alignParentStart="true"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_toStartOf="@+id/button" android:layout_toEndOf="@+id/icon">
+        <TextView android:id="@+id/title" android:layout_width="match_parent" android:layout_height="0dp" android:text="@string/text_nowplaying" android:layout_weight="1" style="@style/NotificationTitle"/>
+        <TextView android:id="@+id/text" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" style="@style/NotificationText"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/button" android:layout_width="48dp" android:layout_height="48dp" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="@style/CloseButton.WhiteThreeMask"/>
+</RelativeLayout>

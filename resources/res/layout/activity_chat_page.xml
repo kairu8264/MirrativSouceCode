@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:tag="layout/activity_chat_page_0" android:background="@color/whiteTwo" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar android:theme="@style/AppTheme.ActionBar" android:id="@+id/toolbar" android:background="@mipmap/header_bg" android:layout_width="match_parent" android:layout_height="@dimen/toolbar_height" android:minHeight="0dp">
+        <LinearLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <RelativeLayout android:gravity="center" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <androidx.appcompat.widget.AppCompatTextView android:ellipsize="end" android:gravity="center" android:id="@+id/toolbar_title" android:layout_width="wrap_content" android:layout_height="match_parent" android:maxLines="1" style="@style/TextWhiteThree.Small"/>
+            </RelativeLayout>
+            <androidx.appcompat.widget.AppCompatTextView android:gravity="center" android:id="@+id/toolbar_group_user_num" android:layout_width="wrap_content" android:layout_height="match_parent" style="@style/TextWhiteThree.Small"/>
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/timeline" android:paddingTop="10dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/input_container" android:layout_below="@+id/toolbar" android:layout_alignParentStart="true"/>
+    <RelativeLayout android:id="@+id/tutorial" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_below="@+id/toolbar">
+        <RelativeLayout android:id="@+id/avatars" android:layout_width="86dp" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerInParent="true">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/avatar2" android:layout_width="48dp" android:layout_height="48dp" android:layout_alignParentEnd="true"/>
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/avatar1" android:layout_width="48dp" android:layout_height="48dp" android:layout_alignParentStart="true"/>
+        </RelativeLayout>
+        <androidx.appcompat.widget.AppCompatTextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/text_chat_tutorial_individual" android:layout_below="@+id/avatars" android:layout_centerHorizontal="true" style="@style/TextWarmGray.Small"/>
+    </RelativeLayout>
+    <androidx.appcompat.widget.AppCompatTextView android:gravity="center" android:id="@+id/has_new_message" android:background="@color/blackThree50" android:padding="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/text_chat_notice_new_message" android:layout_above="@+id/input_container" style="@style/TextWhiteThree"/>
+    <LinearLayout android:id="@+id/input_container" android:background="@color/whiteThree" android:padding="8dp" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <RelativeLayout android:background="@drawable/rectangle_stroke_whitetwo_corner4_transparent" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginEnd="8dp">
+            <EditText android:gravity="start|center_vertical" android:id="@+id/text_field" android:background="@color/transparent" android:paddingLeft="10dp" android:paddingTop="8dp" android:paddingRight="10dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/text_chat_form_default" android:maxLines="5" android:maxLength="@string/limit_chat_message" android:lineSpacingExtra="10sp" android:inputType="textMultiLine" style="@style/EditTextSlategraySmall"/>
+        </RelativeLayout>
+        <androidx.appcompat.widget.AppCompatButton android:layout_gravity="bottom" android:id="@+id/send" android:layout_width="48dp" android:layout_height="32dp" android:text="@string/text_chat_btn_form_send" style="@style/Button.RectangleCorner4_Tealish.Small"/>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/settings" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/toolbar">
+        <FrameLayout android:id="@+id/settings_bg" android:background="@color/blackThree50" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <LinearLayout android:orientation="vertical" android:background="@color/whiteThree" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/settings_users" android:background="@drawable/ripple_tealish30_rectangle_whitethree" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="48dp">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@mipmap/ic_room_member" android:layout_marginEnd="16dp"/>
+                <androidx.appcompat.widget.AppCompatTextView android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/text_chat_member_list"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/settings_invite_users" android:background="@drawable/ripple_tealish30_rectangle_whitethree" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="48dp">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@mipmap/ic_room_add" android:layout_marginEnd="16dp"/>
+                <androidx.appcompat.widget.AppCompatTextView android:gravity="center_vertical" android:id="@+id/settings_invite_users_text" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/text_chat_member_add"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/settings_push" android:background="@drawable/ripple_tealish30_rectangle_whitethree" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="48dp">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:id="@+id/settings_push_icon" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@mipmap/ic_room_push_on" android:layout_marginEnd="16dp"/>
+                <androidx.appcompat.widget.AppCompatTextView android:gravity="center_vertical" android:id="@+id/settings_push_text" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/settings_edit_group" android:background="@drawable/ripple_tealish30_rectangle_whitethree" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="48dp">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@mipmap/ic_room_setting" android:layout_marginEnd="16dp"/>
+                <androidx.appcompat.widget.AppCompatTextView android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/text_chat_group_edit"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/settings_hide_room" android:background="@drawable/ripple_tealish30_rectangle_whitethree" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="48dp">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@mipmap/ic_room_hide_off" android:layout_marginEnd="16dp"/>
+                <androidx.appcompat.widget.AppCompatTextView android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/text_chat_room_hide"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/settings_show_room" android:background="@drawable/ripple_tealish30_rectangle_whitethree" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="48dp">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@mipmap/ic_room_hide_on" android:layout_marginEnd="16dp"/>
+                <androidx.appcompat.widget.AppCompatTextView android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/text_chat_room_show"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/settings_leave_group" android:background="@drawable/ripple_tealish30_rectangle_whitethree" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="48dp">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@mipmap/ic_room_exit" android:layout_marginEnd="16dp"/>
+                <androidx.appcompat.widget.AppCompatTextView android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/text_chat_room_leave"/>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:background="@drawable/drop_shadow" android:layout_width="match_parent" android:layout_height="4dp" android:layout_below="@+id/toolbar"/>
+</RelativeLayout>

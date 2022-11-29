@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/container" android:tag="layout/dialog_fragment_new_terms_of_service_0" android:background="@color/blackThree30" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.cardview.widget.CardView android:id="@+id/dialog_card_container" android:layout_width="300dp" android:layout_height="wrap_content" app:cardBackgroundColor="@color/whiteThree" app:cardCornerRadius="12dp" app:cardElevation="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@+id/dialog_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@+id/image" android:layout_width="match_parent" android:layout_height="300dp" android:foreground="@drawable/bg_new_terms_of_service_dialog"/>
+                <androidx.appcompat.widget.AppCompatButton android:textAppearance="@style/Body2" android:textColor="@color/sankGray" android:layout_gravity="center" android:id="@+id/confirm_button" android:background="@drawable/checkbox_corner24_tealish_stroke_pinkishgray" android:layout_width="240dp" android:layout_height="46dp" android:layout_marginTop="20dp" android:text="@string/text_new_terms_of_service_dialog_confirm"/>
+                <androidx.appcompat.widget.AppCompatButton android:textAppearance="@style/Body2" android:textColor="@color/sankGray" android:layout_gravity="center" android:id="@+id/streamer_terms_confirm_button" android:background="@drawable/checkbox_corner24_tealish_stroke_pinkishgray" android:layout_width="240dp" android:layout_height="46dp" android:layout_marginTop="13dp" android:text="@string/text_new_streamer_terms_of_service_dialog_confirm"/>
+                <androidx.appcompat.widget.AppCompatButton android:textAppearance="@style/Body2" android:textColor="@color/whiteThree" android:layout_gravity="center" android:id="@+id/agree_button" android:background="@drawable/btn_rectangle_corner24_tealish" android:layout_width="240dp" android:layout_height="46dp" android:layout_marginTop="13dp" android:layout_marginBottom="32dp" android:text="@string/text_2_terms_of_service_dialog_agree"/>
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
